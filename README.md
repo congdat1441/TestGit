@@ -10,3 +10,5 @@ feature_test_1 third
 feature_test_2 second 
 
 feature_test_2 third 
+
+feature_test_2 fourth

@@ -1,0 +1,15 @@
+B1: Pull code mới nhất về từ develop
+B2: git status xem thay đổi file trong feature của mình 
+B3: git add . nếu có thay đổi file trong feature 
+B4 git commit -m "abc..." để commit code lên nhánh của mình 
+B5 git pull origin develop, lệnh này pull code về để đề phòng có thay đổi mới từ develop 
+B6 git push origin feature, lệnh này kết thúc quá trình push code lên nhanh feature của mình 
+
+Nếu muốn merge code cho develop sau khi hoàn tất quá trình trên: 
+B1 git checkout develop, chuyển nhánh sang develop 
+B2 git merge feature, thực hiện lệnh merge từ nhánh feature của mình cho develop 
+B3 git push orgin develop, lệnh này để push code lên develop lại, lệnh này xong là merge thành công, nếu không có lệnh này thì 
+lúc ở một nhánh feature_n khác thì họ pull code từ develop về sẽ không có code mới merge từ feature cho develop 
+--> vì vậy phải có B3 để hoàn tất quá trình merge code. 
+
+Chúc may mắn!!! 
